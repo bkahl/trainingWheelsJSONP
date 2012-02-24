@@ -1,0 +1,7 @@
+Training Wheels JSONP
+
+This is a JSONP example I did for a help menu dropdown which consisted of Videos while working for Eloqua.
+
+I pointed the JSON file to my personal server @ kahlcor.com to test the JSONP code.
+
+If it works properly, it should loop through the JSON file alerting all of the Objects.

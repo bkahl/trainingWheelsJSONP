@@ -1,0 +1,56 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>          
+	        <title>FedEx Day | Training Wheels</title>
+	        <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+	        <link href="dependencies/screen.css" type="text/css" rel="stylesheet" />                                
+	</head>
+	<body>
+
+
+	        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.js" charset="utf-8"></script>
+	        <script type="text/javascript">
+	
+	          function trainingWheels(data) {
+				//Orion.TrainingWheelsData = data
+				
+				data.myEloqua.forEach(function(o) {
+					alert("myEloqua - Typeof: " + o.typeOf + ", Title: " + o.title + ", URL: " + o.url);
+				});
+				
+				data.campaign.forEach(function(o) {
+					alert("campaign - Typeof: " + o.typeOf + ", Title: " + o.title + ", URL: " + o.url);
+				});
+				
+				data.email.forEach(function(o) {
+					alert("email - Typeof: " + o.typeOf + ", Title: " + o.title + ", URL: " + o.url);
+				});
+				
+				data.form.forEach(function(o) {
+					alert("form - Typeof: " + o.typeOf + ", Title: " + o.title + ", URL: " + o.url);
+				});
+				
+				data.landingPage.forEach(function(o) {
+					alert("landingPage - Typeof: " + o.typeOf + ", Title: " + o.title + ", URL: " + o.url);
+				});
+				
+				data.segment.forEach(function(o) {
+					alert("segment - Typeof: " + o.typeOf + ", Title: " + o.title + ", URL: " + o.url);
+				});
+	          				  
+	          }
+	          var url = "http://www.kahlcor.com/trainingWheels.json";
+	
+	          // this shows dynamic script insertion
+	          alert(url);
+	          var script = document.createElement('script');
+	          script.setAttribute('src', url);
+
+	          // load the script
+	          document.getElementsByTagName('head')[0].appendChild(script);
+
+	        </script>
+
+
+	</body>
+</html>

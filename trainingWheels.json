@@ -1,0 +1,119 @@
+trainingWheels({
+  myEloqua: [
+            {
+              typeOf: 'video',
+              title: '_My Eloqua Overview',
+              url: 'http://www.youtube.com/user/EloquaChannel'
+            },
+            {
+              typeOf: 'video',
+              title: 'TROYS GREAT',
+              url: 'http://www.youtube.com/user/EloquaChannel'
+            }
+  ],
+  
+  campaign: [
+            {
+              typeOf: 'video',
+              title: '_Campaign Canvas Overview',
+              url: 'http://www.youtube.com/user/EloquaChannel'
+            },
+            {
+              typeOf: 'video',
+              title: '_Creating a Simple Campaign',
+              url: 'http://www.youtube.com/user/EloquaChannel'
+            },
+            {
+              typeOf: 'video',
+              title: 'Eloqua Awesome!',
+              url: 'http://www.youtube.com/user/EloquaChannel'
+            }
+  ],
+  
+  email: [
+            {
+              typeOf: 'video',
+              title: '_Email Editor Overview',
+              url: 'http://www.youtube.com/user/EloquaChannel'
+            },
+            {
+              typeOf: 'video',
+              title: '_Creating a Simple Template',
+              url: 'http://www.youtube.com/user/EloquaChannel'
+            },
+            {
+              typeOf: 'video',
+              title: '_Using Dynamic Content',
+              url: 'http://www.youtube.com/user/EloquaChannel'
+            }
+  ],
+  
+  form: [
+            {
+              typeOf: 'video',
+              title: '_Form Editor Overview',
+              url: 'http://www.youtube.com/user/EloquaChannel'
+            },
+            {
+              typeOf: 'video',
+              title: '_Adding Custom Form Fields',
+              url: 'http://www.youtube.com/user/EloquaChannel'
+            },
+            {
+              typeOf: 'video',
+              title: '_Form Processing Overview',
+              url: 'http://www.youtube.com/user/EloquaChannel'
+            },
+            {
+              typeOf: 'video',
+              title: '_Create/Update a Contact Record',
+              url: 'http://www.youtube.com/user/EloquaChannel'
+            },
+            {
+              typeOf: 'video',
+              title: '_Working With an External Form',
+              url: 'http://www.youtube.com/user/EloquaChannel'
+            },
+            {
+              typeOf: 'video',
+              title: '_Conditional Processing',
+              url: 'http://www.youtube.com/user/EloquaChannel'
+            }
+  ],
+  
+  landingPage: [
+            {
+              typeOf: 'video',
+              title: '_Landing Page Editor Overview',
+              url: 'http://www.youtube.com/user/EloquaChannel'
+            },
+            {
+              typeOf: 'video',
+              title: '_Creating a Simple Landing Page',
+              url: 'http://www.youtube.com/user/EloquaChannel'
+            },
+            {
+              typeOf: 'video',
+              title: '_Embedding Social Components',
+              url: 'http://www.youtube.com/user/EloquaChannel'
+            }
+  ],
+  
+  segment: [
+            {
+              typeOf: 'video',
+              title: '_Segmentation Overview',
+              url: 'http://www.youtube.com/user/EloquaChannel'
+            },
+            {
+              typeOf: 'video',
+              title: '_Using Advanced Logic in Segments',
+              url: 'http://www.youtube.com/user/EloquaChannel'
+            },
+            {
+              typeOf: 'video',
+              title: '_Using Data Operations on Segments',
+              url: 'http://www.youtube.com/user/EloquaChannel'
+            }
+  ]
+});
